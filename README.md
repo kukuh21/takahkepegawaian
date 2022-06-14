@@ -18,7 +18,7 @@ Aplikasi ini dibuat untuk arsip takah kepegawaian menjadi berkas digital.
 
 Aplikasi ini dapat dipasang pada server lokal dan onlne dengan spesifikasi berikut:
 
-1. PHP > 7.2.5 (dan mengikuti [server requirements Laravel 8.x](https://laravel.com/docs/7.x/installation#server-requirements) lainnya),
+1. PHP > 7.2.5 (dan mengikuti [server requirements Laravel 7.x](https://laravel.com/docs/7.x/installation#server-requirements) lainnya),
 2. Database MySQL atau MariaDB.
 
 ### Langkah Instalasi
