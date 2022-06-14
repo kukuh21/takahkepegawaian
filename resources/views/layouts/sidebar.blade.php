@@ -4,7 +4,7 @@
       <a href="{{ route('dashboard') }}">{{ config('app.app_name') }}</a>
     </div>
     <div class="sidebar-brand sidebar-brand-sm">
-      <a href="{{ route('dashboard') }}">{{ config('app.app_name') }}</a>
+      <a href="{{ route('dashboard') }}">{{ config('app.app_ttl') }}</a>
     </div>
     <ul class="sidebar-menu">
         <li class="menu-header">Menu</li>

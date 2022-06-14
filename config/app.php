@@ -28,6 +28,7 @@ return [
 
     'env' => env('APP_ENV', 'production'),
     'app_name' => 'E-Takah',
+    'app_ttl' => 'E-T',
     'instansi' => 'BKPSDM Tabalong',
     'meta' => 'Aplikasi Arsip Takah Digital BKPSDM Tabalong ',
 
