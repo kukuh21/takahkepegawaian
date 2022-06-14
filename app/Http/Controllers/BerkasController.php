@@ -184,7 +184,7 @@ class BerkasController extends Controller
     public function destroy($id)
     {
         $db = Berkas::findOrFail($id);
-        $folder = Berkas::find($db->folder_id);
+        $folder = Folder::find($db->folder_id);
 
         if($db->berkas_file != null) {
           File::delete('berkas/'.$db->folder_id.'/'.$db->berkas_file);

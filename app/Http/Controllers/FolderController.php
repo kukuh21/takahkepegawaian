@@ -111,11 +111,12 @@ class FolderController extends Controller
     {
         $cek = Berkas::where('folder_id', $id);
 
-        if($cek) {
+        if($cek != null) {
           session()->flash('error', 'Ada Berkas Pada Folder Ini');
           return redirect()->route('folder.index');
         } else {
           Folder::destroy($id);
+          session()->flash('success', 'Folder Berhasil Dihapus');
           return redirect()->route('folder.index');
         }
     }
