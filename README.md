@@ -34,5 +34,3 @@ Aplikasi ini dapat dipasang pada server lokal dan onlne dengan spesifikasi berik
 9. `php artisan db:seed`
 10. `php artisan serve`
 
-
-## License
