@@ -36,5 +36,3 @@ Aplikasi ini dapat dipasang pada server lokal dan onlne dengan spesifikasi berik
 
 
 ## License
-
-Project Silsilah merupakan software open-source di bawah lisensi [Lisensi MIT](LICENSE).
